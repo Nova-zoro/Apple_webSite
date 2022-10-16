@@ -1,0 +1,162 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  width:100%;
+  min-height: 100vh;
+  font-size: 0.8rem;
+  background:#81ecec;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-12, col-md-9{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.card{
+  width:100%;
+  padding:4rem;
+  background-color: rgb(45,45,45) ;
+  color:white;
+  box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.5) ,0 8px 10px 2px rgba(0,0,0,0.5)
+}
+.row{
+  margin:0;
+}
+.path{
+  color:gray;
+  margin-bottom:1rem;
+} 
+.path a{
+  color:#fff;
+}
+.info{
+  padding:6vh 0vh;
+}
+.checked{
+  color:rgb(255,217,0);
+  margin-right:7px;
+}
+img{
+  height: 10rem;
+  width:75%;
+  padding:1rem;
+  border-radius: 10px;
+}
+.fa-heart{
+  font-size:2rem;
+  color:#fff;
+  font-weight: lighter;
+  padding:1rem;
+}
+.fa-heart:hover{
+  background-color:rgb(255,217,0);
+  color: black;
+  padding:1rem;
+  border-radius: 5px;
+}
+#reviews{
+  margin-left:3vh;
+  color:gray;
+}
+.row-price{
+  margin-top:1.3rem;
+  text-align: left;
+} 
+.btn{
+  padding:20px;
+  color:gray;
+  border:1px solid rgb(85,85,85);
+  
+}
+ 
+.lower .btn{
+  background: transparent;
+  border-color:rgb(255,217,0);
+  color: rgb(255,217,0);
+  padding:1.5vh 4vh;
+  border-radius: 5px;
+
+}
+.lower .btn:hover{
+  color:#fff
+}
+label.radio span{
+  padding:10px 33px;
+  padding-top:14px;
+  padding-bottom: 0.1px!important;
+  text-align: center;
+  color: gray;
+  background: rgb(45,45,45);
+  display: inline-block;
+  margin-right:2vh;
+}
+label.radio input:checked+span{
+  border-radius:5px;
+  border:1px solid #fff;
+  background-color: rgb(45,45,45);
+  color:white;
+  display: inline-block;
+}
+label.radio input{
+  position:absolute;
+  top:0;
+  left:0;
+  visibility:hidden;
+  cursor: pointer;
+  text-align: center;
+}
+lebel.radio{
+  cursor: pointer;
+} 
+.carousel-control-prev{
+  width:0;
+}
+.carousel-control-next{
+  left:4vh;
+}
+a:hover{
+  color:unset;
+  text-decoration: none;
+}
+@media(max-width: 768px){
+ .card{
+   width:100%;
+   padding:1.5rem;
+ }
+ .info{
+  padding:0;
+
+ }
+ img{
+  padding:2.5rem;
+ }
+ .row-price{
+  display: flex;
+  justify-content: space-between;
+ }
+ .label .radio span{
+  padding:1vh 2vh;
+  text-align: center;
+ }
+ label.radio input:checked+span{
+  padding:1vh 2vh;
+  text-align: center;
+ }.btn{
+  padding:8px;
+  font-size: 0.9rem;
+  font-size: 13px;
+ }.col-md-9 h1{
+  font-size: 2.3rem;
+ }.col-md-9 p{
+  font-size:13px;
+ }.row b{
+  font-size: 13px;
+ }.col-md-3 i{
+  font-size: 22px;
+ }
+ }
